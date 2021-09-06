@@ -1,3 +1,3 @@
-import { TestComponent } from './components/TestComponent/TestComponent';
+import Box from './components/Box';
 
-export { TestComponent };
+export { Box };

@@ -1,7 +1,7 @@
 import React, { VFC } from 'react';
 import styled from 'styled-components';
 
-import { TestComponent } from './reactComponentLib';
+import { Box } from './reactComponentLib';
 
 const StyledDiv = styled.div`
   padding: 10px;
@@ -11,7 +11,7 @@ const StyledDiv = styled.div`
 
 export const App: VFC = () => (
   <div>
-    <TestComponent text="Styled Component from React library" />
+    <Box>Blah</Box>
     <StyledDiv>Example App styled component</StyledDiv>
   </div>
 );

@@ -2,13 +2,13 @@
   "compilerOptions": {
     "declaration": true,
     "declarationDir": "./dist",
-    "strict": true,
+    "strict": false,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "noUnusedParameters": true,
     "strictNullChecks": true,
     "moduleResolution": "node",
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "outDir": "./dist",
     "target": "es5",
     "jsx": "react"
